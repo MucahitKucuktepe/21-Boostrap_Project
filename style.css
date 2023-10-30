@@ -10,9 +10,6 @@
 .nav-link:hover{
     color:wheat !important;
 }
-.container-fluid{
-    background-image: url(./img/banner.jpeg);
+.banner img{
     height: calc(100vh - 60px);
-    background-size: cover;
-    background-repeat: no-repeat;
 }

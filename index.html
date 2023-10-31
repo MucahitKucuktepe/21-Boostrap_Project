@@ -10,42 +10,91 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!--******************** NAVBAR ****************-->
-    <nav class="navbar navbar-expand-lg bg-dark fixed-top navbar-dark">
-        <div class="container">
-          <a class="navbar-brand" href="#">Harvey Tech</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav ">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " aria-disabled="true">Staff</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-disabled="true">Contact Us</a>
-              </li>
-            </ul>
-          </div>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand active" href="#">Harvey Tech</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="true">Staff</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="true">Contact Us</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-<!--********************* BANNER ***************-->
-<div class="banner ">
-  <img src="./img/banner.jpeg" class="img-fluid" width="100%">
-
-</div>
+      </div>
+    </nav>
+    <!--********************* BANNER ***************-->
+    <div class="banner">
+      <h4 class="display-4 container">
+        The IT Career of Your Dreams starts Here!
+      </h4>
+      <h3 class="container display-1">Harvey Tech!</h3>
+      <a href="#services">
+        <button class="btn btn-danger btn-lg">Our Services</button>
+      </a>
+    </div>
+    <!--********************* SERVİCES ***************-->
+    <div class="container pt-4" id="services">
+      <h2 class="text-center display-3">Services</h2>
+      <p class="text-center">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur!
+      </p>
+      <div class="row pt-4 g-5">
+        <div class="col-12 col-sm-6 col-md-4 icons text-center">
+          <span class="circle"><i class="fa-solid fa-code"></i></span>
+          <h4 class="">Programming</h4>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 icons text-center">
+          <span class="circle"><i class="fa-solid fa-palette"></i></span>
+          <h4 class="">Design</h4>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 icons text-center">
+          <span class="circle"><i class="fa-solid fa-network-wired"></i></i></span>
+          <h4 class="">Networking</h4>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+      </div>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"

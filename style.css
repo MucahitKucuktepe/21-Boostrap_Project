@@ -76,10 +76,10 @@
 }
 
 .soup {
-  background-image: url(./img/aboutus.jpeg);
+  /* background-image: url(./img/aboutus.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
 }
 
 .team img {
@@ -119,15 +119,11 @@
   font-size: 1.5rem;
 }
 .contact{
-  border: 2px solid red;
   background-image: url(./img/map.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 10rem;
   
-}
-.send{
-  border: 2px solid red;
 }
 

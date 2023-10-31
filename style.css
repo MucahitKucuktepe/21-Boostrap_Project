@@ -65,6 +65,12 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.portfolio {
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
 .card-img-top {
   height: 12rem;
 }
@@ -102,5 +108,26 @@
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 9rem;
+}
+
+.social_icons i{
+  margin-right: 1rem;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  font-size: 1.5rem;
+}
+.contact{
+  border: 2px solid red;
+  background-image: url(./img/map.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10rem;
+  
+}
+.send{
+  border: 2px solid red;
 }
 

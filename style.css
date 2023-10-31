@@ -38,17 +38,17 @@
   text-align: center;
   color: purple;
 }
-.banner button{
+.banner button {
   position: absolute;
   top: 58%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color:white;
+  color: white;
   font-size: 1.3rem;
 }
 
-.circle{
+.circle {
   font-size: 3rem;
   display: inline-block;
   background-color: red;
@@ -59,13 +59,48 @@
   position: relative;
 }
 
-.circle i{
+.circle i {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
-.card-img-top{
+.card-img-top {
   height: 12rem;
-
 }
+
+.soup {
+  background-image: url(./img/aboutus.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.team img {
+  width: 200px;
+  height: 200px;
+  border: 5px solid gray;
+  border-radius: 50%;
+}
+.noah {
+  width: 200px;
+  height: 200px;
+  border: 5px solid gray;
+  border-radius: 50%;
+  color: white;
+  background-color: #ef6c00;
+  position: relative;
+}
+
+.noah {
+  margin: auto;
+}
+.noah h1 {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 9rem;
+}
+

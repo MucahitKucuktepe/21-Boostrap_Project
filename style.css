@@ -110,7 +110,7 @@
   font-size: 9rem;
 }
 
-.social_icons i{
+.social_icons i {
   margin-right: 1rem;
   padding: 1rem;
   background-color: black;
@@ -118,12 +118,33 @@
   border-radius: 50%;
   font-size: 1.5rem;
 }
-.contact{
+.contact {
   background-image: url(./img/map.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 10rem;
-  
 }
 
+/********************** BUTTON **********/
+.btn-up{
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  font-size: 2rem;
+  color: white;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  text-align: center;
+  border-radius: 50%;
+  transition: all 1s;
+}
+
+.btn-up:hover{
+  color: aqua;
+}
+
+.btn-up:hover{
+  transform: scale(1.3);
+}
